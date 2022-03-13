@@ -1,0 +1,234 @@
+[ ] [ 2022-03-06 11:37:35.519384 ] : Initializing driver
+[ ] [ 2022-03-06 11:37:35.520039 ] : Options : 
+[ ] [ 2022-03-06 11:37:35.520452 ] : 	Headless - False
+[ ] [ 2022-03-06 11:37:40.538538 ] : Driver Ready
+[ ] [ 2022-03-06 11:37:40.539137 ] : GOTO : https://www.discord.com/login
+[ ] [ 2022-03-06 11:37:45.032933 ] : Typing :sankalpbas@gmail.com: into name::email::-1
+[ ] [ 2022-03-06 11:37:45.066622 ] : Element : name::email:: [-1]
+[ ] [ 2022-03-06 11:37:45.474994 ] : Typing :Xsbsankalp@741: into name::password::-1
+[ ] [ 2022-03-06 11:37:45.499058 ] : Element : name::password:: [-1]
+[ ] [ 2022-03-06 11:37:45.741232 ] : Click tag::button [1]
+[ ] [ 2022-03-06 11:37:45.767032 ] : Element : tag::button:: [1]
+[ ] [ 2022-03-06 11:37:51.127759 ] : Waiting for class::container-YkUktl
+[E] [ 2022-03-06 11:38:01.680573 ] : Caught error : Message: 
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
+[ ] [ 2022-03-06 11:39:30.685193 ] : Initializing driver
+[ ] [ 2022-03-06 11:39:30.685797 ] : Options : 
+[ ] [ 2022-03-06 11:39:30.686299 ] : 	Headless - False
+[ ] [ 2022-03-06 11:39:35.818080 ] : Driver Ready
+[ ] [ 2022-03-06 11:39:35.818711 ] : GOTO : https://www.discord.com/login
+[ ] [ 2022-03-06 11:39:41.049078 ] : Typing :sankalpbas@gmail.com: into name::email::-1
+[ ] [ 2022-03-06 11:39:41.085495 ] : Element : name::email:: [-1]
+[ ] [ 2022-03-06 11:39:41.513673 ] : Typing :Xsbsankalp@741: into name::password::-1
+[ ] [ 2022-03-06 11:39:41.547369 ] : Element : name::password:: [-1]
+[ ] [ 2022-03-06 11:39:41.776369 ] : Click tag::button [1]
+[ ] [ 2022-03-06 11:39:41.796113 ] : Element : tag::button:: [1]
+[ ] [ 2022-03-06 11:39:47.168138 ] : Waiting for class::container-YkUktl
+[ ] [ 2022-03-06 11:39:52.872004 ] : Element : id::dht-cfg-overlay:: [-1]
+[o] [ 2022-03-06 11:39:58.299248 ] : 4
+[ ] [ 2022-03-06 11:39:58.300782 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-06 11:39:58.314445 ] : Element : class::blobContainer-ikKyFs:: [0]
+[o] [ 2022-03-06 11:40:05.659412 ] : 3
+[T] [ 2022-03-06 11:40:05.660996 ] : Total 3 channels in channel no 1
+[ ] [ 2022-03-06 11:40:05.662397 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:05.685105 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:06.101833 ] : Click class::blobContainer-ikKyFs [1]
+[ ] [ 2022-03-06 11:40:06.113200 ] : Element : class::blobContainer-ikKyFs:: [1]
+[o] [ 2022-03-06 11:40:13.343911 ] : 19
+[T] [ 2022-03-06 11:40:13.345702 ] : Total 19 channels in channel no 2
+[ ] [ 2022-03-06 11:40:13.347465 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:13.415751 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:15.388381 ] : Click class::blobContainer-ikKyFs [2]
+[ ] [ 2022-03-06 11:40:15.402909 ] : Element : class::blobContainer-ikKyFs:: [2]
+[o] [ 2022-03-06 11:40:22.018778 ] : 11
+[T] [ 2022-03-06 11:40:22.019564 ] : Total 11 channels in channel no 3
+[ ] [ 2022-03-06 11:40:22.020095 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:22.033314 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:23.546207 ] : Click class::blobContainer-ikKyFs [3]
+[ ] [ 2022-03-06 11:40:23.556036 ] : Element : class::blobContainer-ikKyFs:: [3]
+[o] [ 2022-03-06 11:40:30.717034 ] : 29
+[T] [ 2022-03-06 11:40:30.717573 ] : Total 29 channels in channel no 4
+[ ] [ 2022-03-06 11:40:30.718082 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:30.771416 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:31.695190 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-06 11:40:31.706172 ] : Element : class::blobContainer-ikKyFs:: [0]
+[o] [ 2022-03-06 11:40:39.312465 ] : 27
+[T] [ 2022-03-06 11:40:39.313217 ] : Total 27 channels in channel no 1
+[ ] [ 2022-03-06 11:40:39.313725 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:39.954526 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:41.652472 ] : Click class::blobContainer-ikKyFs [1]
+[ ] [ 2022-03-06 11:40:41.681988 ] : Element : class::blobContainer-ikKyFs:: [1]
+[o] [ 2022-03-06 11:40:48.113962 ] : 19
+[T] [ 2022-03-06 11:40:48.114630 ] : Total 19 channels in channel no 2
+[ ] [ 2022-03-06 11:40:48.115068 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:48.132742 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:48.447008 ] : Click class::blobContainer-ikKyFs [2]
+[ ] [ 2022-03-06 11:40:48.469083 ] : Element : class::blobContainer-ikKyFs:: [2]
+[o] [ 2022-03-06 11:40:54.886349 ] : 17
+[T] [ 2022-03-06 11:40:54.887114 ] : Total 17 channels in channel no 3
+[ ] [ 2022-03-06 11:40:54.887782 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:40:54.905314 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-06 11:40:57.825272 ] : Click class::blobContainer-ikKyFs [3]
+[ ] [ 2022-03-06 11:40:58.013984 ] : Element : class::blobContainer-ikKyFs:: [3]
+[o] [ 2022-03-06 11:41:03.646098 ] : 32
+[T] [ 2022-03-06 11:41:03.646733 ] : Total 32 channels in channel no 4
+[ ] [ 2022-03-06 11:41:03.647310 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-06 11:41:03.668068 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-08 18:15:34.649121 ] : Initializing driver
+[ ] [ 2022-03-08 18:15:34.650322 ] : Options : 
+[ ] [ 2022-03-08 18:15:34.650956 ] : 	Headless - False
+[ ] [ 2022-03-08 18:15:40.678197 ] : Driver Ready
+[ ] [ 2022-03-08 18:15:40.678798 ] : GOTO : https://www.discord.com/login
+[ ] [ 2022-03-08 18:15:48.541569 ] : Typing :sankalpbas@gmail.com: into name::email::-1
+[ ] [ 2022-03-08 18:15:48.576140 ] : Element : name::email:: [-1]
+[ ] [ 2022-03-08 18:15:48.966053 ] : Typing :Xsbsankalp@741: into name::password::-1
+[ ] [ 2022-03-08 18:15:48.978879 ] : Element : name::password:: [-1]
+[ ] [ 2022-03-08 18:15:49.177093 ] : Click tag::button [1]
+[ ] [ 2022-03-08 18:15:49.188861 ] : Element : tag::button:: [1]
+[ ] [ 2022-03-08 18:15:54.519976 ] : Waiting for class::container-YkUktl
+[ ] [ 2022-03-08 18:15:55.688474 ] : Element : id::dht-cfg-overlay:: [-1]
+[o] [ 2022-03-08 18:16:01.160870 ] : 4
+[ ] [ 2022-03-08 18:16:01.162364 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-08 18:16:01.174223 ] : Element : class::blobContainer-ikKyFs:: [0]
+[o] [ 2022-03-08 18:16:08.219207 ] : 3
+[T] [ 2022-03-08 18:16:08.221564 ] : Total 3 channels in channel no 1
+[ ] [ 2022-03-08 18:16:08.222342 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-08 18:16:08.234483 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-08 18:16:08.549891 ] : Click class::blobContainer-ikKyFs [1]
+[ ] [ 2022-03-08 18:16:08.562286 ] : Element : class::blobContainer-ikKyFs:: [1]
+[o] [ 2022-03-08 18:16:14.510820 ] : 5
+[T] [ 2022-03-08 18:16:14.511803 ] : Total 5 channels in channel no 2
+[ ] [ 2022-03-08 18:16:14.512256 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-08 18:16:14.526191 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-08 18:16:16.578205 ] : Click class::blobContainer-ikKyFs [2]
+[ ] [ 2022-03-08 18:16:16.594932 ] : Element : class::blobContainer-ikKyFs:: [2]
+[o] [ 2022-03-08 18:16:22.561498 ] : 3
+[T] [ 2022-03-08 18:16:22.562409 ] : Total 3 channels in channel no 3
+[ ] [ 2022-03-08 18:16:22.563388 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-08 18:16:22.577835 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-08 18:16:22.923989 ] : Click class::blobContainer-ikKyFs [3]
+[ ] [ 2022-03-08 18:16:22.961066 ] : Element : class::blobContainer-ikKyFs:: [3]
+[o] [ 2022-03-08 18:16:29.160886 ] : 19
+[T] [ 2022-03-08 18:16:29.161792 ] : Total 19 channels in channel no 4
+[ ] [ 2022-03-08 18:16:29.162376 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-08 18:16:29.181528 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-08 18:16:29.615742 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-08 18:16:29.634881 ] : Element : class::blobContainer-ikKyFs:: [0]
+[ ] [ 2022-03-08 18:18:05.544924 ] : Initializing driver
+[ ] [ 2022-03-08 18:18:05.545764 ] : Options : 
+[ ] [ 2022-03-08 18:18:05.546401 ] : 	Headless - False
+[ ] [ 2022-03-08 18:18:10.967195 ] : Driver Ready
+[ ] [ 2022-03-08 18:18:10.968958 ] : GOTO : https://www.discord.com/login
+[E] [ 2022-03-08 18:18:21.064433 ] : Caught error : Message: Reached error page: about:neterror?e=connectionFailure&u=https%3A//www.discord.com/login&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20www.discord.com.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5
+checkReadyState@chrome://remote/content/marionette/navigate.js:64:24
+onNavigation@chrome://remote/content/marionette/navigate.js:312:39
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25
+
+[ ] [ 2022-03-08 18:21:45.338614 ] : Initializing driver
+[ ] [ 2022-03-08 18:21:45.339495 ] : Options : 
+[ ] [ 2022-03-08 18:21:45.340217 ] : 	Headless - False
+[ ] [ 2022-03-08 18:21:50.268860 ] : Driver Ready
+[ ] [ 2022-03-08 18:21:50.271190 ] : GOTO : https://www.discord.com/login
+[E] [ 2022-03-08 18:22:14.151110 ] : Caught error : Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.discord.com/login&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.discord.com.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5
+checkReadyState@chrome://remote/content/marionette/navigate.js:64:24
+onNavigation@chrome://remote/content/marionette/navigate.js:312:39
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25
+
+[ ] [ 2022-03-13 11:13:36.437541 ] : Initializing driver
+[ ] [ 2022-03-13 11:13:36.438180 ] : Options : 
+[ ] [ 2022-03-13 11:13:36.438645 ] : 	Headless - False
+[ ] [ 2022-03-13 11:13:42.671279 ] : Driver Ready
+[ ] [ 2022-03-13 11:13:42.672096 ] : GOTO : https://www.discord.com/login
+[ ] [ 2022-03-13 11:13:46.832746 ] : Typing :sankalpbas@gmail.com: into name::email::-1
+[ ] [ 2022-03-13 11:13:47.019622 ] : Element : name::email:: [-1]
+[ ] [ 2022-03-13 11:13:47.378001 ] : Typing :Xsbsankalp@741: into name::password::-1
+[ ] [ 2022-03-13 11:13:47.388495 ] : Element : name::password:: [-1]
+[ ] [ 2022-03-13 11:13:47.624024 ] : Click tag::button [1]
+[ ] [ 2022-03-13 11:13:47.668189 ] : Element : tag::button:: [1]
+[ ] [ 2022-03-13 11:13:52.984629 ] : Waiting for class::container-YkUktl
+[ ] [ 2022-03-13 11:13:54.142933 ] : Element : id::dht-cfg-overlay:: [-1]
+[o] [ 2022-03-13 11:13:55.730471 ] : 4
+[ ] [ 2022-03-13 11:13:55.731484 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-13 11:13:55.745044 ] : Element : class::blobContainer-ikKyFs:: [0]
+[o] [ 2022-03-13 11:14:02.860078 ] : 3
+[T] [ 2022-03-13 11:14:02.860815 ] : Total 3 channels in channel no 1
+[ ] [ 2022-03-13 11:14:02.861833 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:02.877925 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:03.283931 ] : Click class::blobContainer-ikKyFs [1]
+[ ] [ 2022-03-13 11:14:03.299886 ] : Element : class::blobContainer-ikKyFs:: [1]
+[o] [ 2022-03-13 11:14:10.500260 ] : 5
+[T] [ 2022-03-13 11:14:10.501352 ] : Total 5 channels in channel no 2
+[ ] [ 2022-03-13 11:14:10.502234 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:10.516416 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:12.081761 ] : Click class::blobContainer-ikKyFs [2]
+[ ] [ 2022-03-13 11:14:12.094945 ] : Element : class::blobContainer-ikKyFs:: [2]
+[o] [ 2022-03-13 11:14:18.848808 ] : 11
+[T] [ 2022-03-13 11:14:18.849750 ] : Total 11 channels in channel no 3
+[ ] [ 2022-03-13 11:14:18.850508 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:18.870928 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:19.917378 ] : Click class::blobContainer-ikKyFs [3]
+[ ] [ 2022-03-13 11:14:20.235290 ] : Element : class::blobContainer-ikKyFs:: [3]
+[o] [ 2022-03-13 11:14:27.862109 ] : 19
+[T] [ 2022-03-13 11:14:27.864263 ] : Total 19 channels in channel no 4
+[ ] [ 2022-03-13 11:14:27.866119 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:27.884565 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:28.218469 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-13 11:14:28.231726 ] : Element : class::blobContainer-ikKyFs:: [0]
+[o] [ 2022-03-13 11:14:34.643216 ] : 3
+[T] [ 2022-03-13 11:14:34.644190 ] : Total 3 channels in channel no 1
+[ ] [ 2022-03-13 11:14:34.644831 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:34.657415 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:35.004760 ] : Click class::blobContainer-ikKyFs [1]
+[ ] [ 2022-03-13 11:14:35.019644 ] : Element : class::blobContainer-ikKyFs:: [1]
+[o] [ 2022-03-13 11:14:41.261234 ] : 5
+[T] [ 2022-03-13 11:14:41.261973 ] : Total 5 channels in channel no 2
+[ ] [ 2022-03-13 11:14:41.262645 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:41.276019 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:41.594440 ] : Click class::blobContainer-ikKyFs [2]
+[ ] [ 2022-03-13 11:14:41.607025 ] : Element : class::blobContainer-ikKyFs:: [2]
+[o] [ 2022-03-13 11:14:47.788807 ] : 11
+[T] [ 2022-03-13 11:14:47.789646 ] : Total 11 channels in channel no 3
+[ ] [ 2022-03-13 11:14:47.790122 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:47.803392 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:48.109916 ] : Click class::blobContainer-ikKyFs [3]
+[ ] [ 2022-03-13 11:14:48.121548 ] : Element : class::blobContainer-ikKyFs:: [3]
+[o] [ 2022-03-13 11:14:54.928157 ] : 19
+[T] [ 2022-03-13 11:14:54.929712 ] : Total 19 channels in channel no 4
+[ ] [ 2022-03-13 11:14:54.930229 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:14:54.947878 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:14:55.255817 ] : Click class::blobContainer-ikKyFs [0]
+[ ] [ 2022-03-13 11:14:55.276151 ] : Element : class::blobContainer-ikKyFs:: [0]
+[o] [ 2022-03-13 11:15:02.223931 ] : 3
+[T] [ 2022-03-13 11:15:02.225898 ] : Total 3 channels in channel no 1
+[ ] [ 2022-03-13 11:15:02.226503 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:15:02.241499 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:15:02.670364 ] : Click class::blobContainer-ikKyFs [1]
+[ ] [ 2022-03-13 11:15:02.684176 ] : Element : class::blobContainer-ikKyFs:: [1]
+[o] [ 2022-03-13 11:15:09.454134 ] : 5
+[T] [ 2022-03-13 11:15:09.454999 ] : Total 5 channels in channel no 2
+[ ] [ 2022-03-13 11:15:09.455813 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:15:09.467619 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:15:09.908092 ] : Click class::blobContainer-ikKyFs [2]
+[ ] [ 2022-03-13 11:15:09.920025 ] : Element : class::blobContainer-ikKyFs:: [2]
+[o] [ 2022-03-13 11:15:16.635290 ] : 11
+[T] [ 2022-03-13 11:15:16.636100 ] : Total 11 channels in channel no 3
+[ ] [ 2022-03-13 11:15:16.636738 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:15:16.651577 ] : Element : class::icon-2W8DHg:: [0]
+[ ] [ 2022-03-13 11:15:17.086886 ] : Click class::blobContainer-ikKyFs [3]
+[ ] [ 2022-03-13 11:15:17.098696 ] : Element : class::blobContainer-ikKyFs:: [3]
+[o] [ 2022-03-13 11:15:24.544912 ] : 19
+[T] [ 2022-03-13 11:15:24.545691 ] : Total 19 channels in channel no 4
+[ ] [ 2022-03-13 11:15:24.546461 ] : Click class::icon-2W8DHg [0]
+[ ] [ 2022-03-13 11:15:24.567694 ] : Element : class::icon-2W8DHg:: [0]

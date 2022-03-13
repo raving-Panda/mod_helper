@@ -1,0 +1,6 @@
+*.xsb
+settings.py
+venv/*
+__pycache__/*
+DiscordHistoryTracker
+*.dht
