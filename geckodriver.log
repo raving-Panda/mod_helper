@@ -1633,3 +1633,5 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
 TimedPromise@chrome://remote/content/marionette/sync.js:220:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://discord.com/assets/96af4abedb91d39017ea.js, line 572: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/96af4abedb91d39017ea.js, line 572: unreachable code after return statement

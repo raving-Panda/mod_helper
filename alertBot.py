@@ -42,5 +42,10 @@ async def checkTime():
                 env.log('T',messagez)
                 db.set_timestamp(tstamp)
     time.sleep(4)
+def get_token():
+    token=""
+    with open('bot_token.xsb','r') as f:
+        token=f.read()
+    return token
 
-client.run('ODg0NzczMDcwMTMxMzI2OTg3.YTdXIg.Y2bkYGYWxD-fVlfXzL67WcsF6kw')
+client.run(get_token())
