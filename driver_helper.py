@@ -1,4 +1,5 @@
 import datetime
+import time
 # from lib import settings as env
 import settings as env
 from selenium import webdriver
@@ -6,6 +7,7 @@ from selenium.webdriver.firefox.options import Options
 # from selenium.webdriver.chrome.options import Options
 #import undetected_chromedriver.v2 as uc
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -173,6 +175,28 @@ class SeleniumHelper:
 		except Exception as e:
 			env.log("E",f"Could not find class or {e}")
 			env.outdate()
+
+	def wait_for_stop_track2(self):
+		try:
+			waiter = WebDriverWait(driver=self.driver, timeout=20, poll_frequency=1)
+			waiter.until(lambda drv: drv.find_element_by_class_name("dht-ctrl-track").text == "Start Tracking")
+		except Exception as e:
+			env.log('Wait',f'Error : {e}')
+
+
+	def wait_for_stop_track(self):
+		try:
+			count = 0
+			while True:
+				time.sleep(1)
+				count+=1
+				classname = self.driver.find_element_by_id("dht-ctrl-settings")
+				if classname.is_enabled() or count>69:
+					break
+		except Exception as e:
+			env.log('Wait',f'Error : {e}')
+
+
 
 	def close(self):
 		self.driver.close()

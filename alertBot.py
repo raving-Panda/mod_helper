@@ -41,6 +41,7 @@ async def checkTime():
                 print(messagez)
                 env.log('T',messagez)
                 db.set_timestamp(tstamp)
+                continue
     time.sleep(4)
 def get_token():
     token=""

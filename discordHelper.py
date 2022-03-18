@@ -8,7 +8,7 @@ class DiscordHelper:
 		self.sd.url("https://www.discord.com/login")
 		time.sleep(1)
 		self.login()
-		self.inject_js()
+		#self.inject_js()
 		self.channelC = self.sd.count_class('blobContainer-ikKyFs')
 		self.cycle_channels()
 		#self.done()
@@ -22,11 +22,16 @@ class DiscordHelper:
 		#self.sd.capcha_click()
 
 	def inject_js(self):
+		self.sd.wait_until_presence('class','slateTextArea-27tjG0')
+		time.sleep(4)
 		self.sd.execute_js(env.js)
-		#self.sd.click('id','dht-cfg-afm-pause')
-		#self.sd.click('id','dht-cfg-asm-pause')
-		self.sd.click_out('id','dht-cfg-overlay')
-		time.sleep(1)
+		try:
+			self.sd.click('id','dht-cfg-afm-switch')
+			self.sd.click('id','dht-cfg-asm-switch')
+			self.sd.click_out('id','dht-cfg-overlay')
+		except:
+			pass
+		
 
 	def cycle_channels2(self):
 		for j in range(3):
@@ -38,12 +43,24 @@ class DiscordHelper:
 
 
 	def cycle_channels(self):
-		for j in range(3):
-			for i in env.top_channels:
-				self.sd.url("https://www.discord.com/login")
-				time.sleep(5)
-				self.top_channel(i)
-				#self.sd.click('id','dht-ctrl-track')
+		try:
+			while True:
+				for i in env.top_channels:
+					self.sd.url("https://discord.com/channels/"+i)
+					self.inject_js()
+					time.sleep(3)
+					self.sd.click('id','dht-ctrl-track')
+					time.sleep(1)
+					self.sd.wait_for_stop_track()
+		except Exception as e:
+			env.log("E",f"Error While looping {e}")
+			self.sd.url("https://www.discord.com/login")
+			time.sleep(1)
+			self.login()
+			self.cycle_channels()
+
+
+
 	def top_channel(self,chno):
 		channelsC = self.sd.count_class('icon-2W8DHg')#('channelName-3KPsGw')
 		env.log("T",f"Total {channelsC} channels in channel no {chno+1}")
